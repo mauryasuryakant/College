@@ -1,4 +1,4 @@
-class A {
+final class A {
 	final int a = 10;
 	void display() {
 		System.out.print("I'm Class A");
@@ -6,7 +6,6 @@ class A {
 }
 
 class B extends A {
-	int a = 10;
 	final void display() {
 		System.out.print("I'm Class A");
 	}
