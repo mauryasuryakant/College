@@ -14,6 +14,6 @@ class B {
 
 class P9_1 {
 	static void main (String a[]) {
-	
+	display()
 	}
 }
