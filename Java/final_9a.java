@@ -5,7 +5,7 @@ class A {
 	}
 }
 
-class B {
+class B extends A {
 	int a = 10;
 	final void display() {
 		System.out.print("I'm Class A");
@@ -14,6 +14,6 @@ class B {
 
 class P9_1 {
 	static void main (String a[]) {
-	display()
+	display();
 	}
 }
